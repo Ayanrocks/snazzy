@@ -1,6 +1,6 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import Home from './src/screens/Home';
+import Home from './src/screens/Home/Home';
 import Profile from './src/screens/Profile';
 
 const MainNavigator = createStackNavigator(
