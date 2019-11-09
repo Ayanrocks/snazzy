@@ -3,7 +3,7 @@ export default StyleSheet.create({
   ViewContainer: {
     padding: 0,
     margin: 0,
-    flex: 1,
+    display: 'flex',
     position: 'relative',
   },
   backgroundImage: {
@@ -27,12 +27,10 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     letterSpacing: 5,
     color: '#fff',
+    fontFamily: 'Gilroy-Regular',
   },
-  movieListScrollView: {
-    position: 'absolute',
-    bottom: '10%',
-    left: '5%',
-    justifyContent: 'flex-end',
-    alignContent: 'flex-end',
-  },
+  // movieListScrollView: {
+  //   flex: 1,
+  //   justifyContent: 'flex-end',
+  // },
 });

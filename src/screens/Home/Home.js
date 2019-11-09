@@ -29,7 +29,7 @@ class Home extends React.Component {
             <View style={styles.textViewContainer}>
               <Text style={styles.headingText}>Trending</Text>
             </View>
-            <View stlye={styles.movieListScrollView}>
+            <View>
               <ScrollView horizontal={true}>
                 <MovieCard />
                 <MovieCard />

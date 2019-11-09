@@ -26,5 +26,6 @@ export default StyleSheet.create({
   headingText: {
     fontSize: 18,
     color: '#fff',
+    fontFamily: 'Gilroy-Light, sans-serif',
   },
 });
